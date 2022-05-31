@@ -1,0 +1,56 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      outline: none;
+}
+.heading{
+      background-color: rgb(255, 167, 14);
+}
+.heading h1{
+      height: 90px;
+      margin-left: 1%;
+}
+.heading h1 i{
+      margin-top: 20px;
+      margin-right: .5%;
+}
+.buttonDiv{
+      margin-top: 2%;
+}
+.buttonDiv #add{
+      background-color: rgb(255, 167, 14);
+      border-radius: 20px;
+      margin-left: .5%;
+      width: 5%;
+      height: 80px;
+}
+
+.buttonDiv #add:hover {
+      /* background-image: linear-gradient(to right, white, rgb(255, 167, 14)); */
+      background-color: rgb(255, 167, 14);
+      width: 12%;    
+      transition: 1s ease-in-out;
+}
+.delete{
+      /* margin-left: 1vw; */
+      color: rgb(217, 79, 79);
+}
+.edit{
+      margin-left: 17vw;
+      color: rgb(35, 195, 235);
+}
+.note{
+      margin-left: 1%;
+      display: inline-block;
+}
+textarea{
+      padding: 12px;
+      height: 30vh;
+      width: 20vw;
+      border-radius: 10px;
+      font-family:sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+}
+
