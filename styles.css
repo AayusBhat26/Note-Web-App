@@ -54,3 +54,11 @@ textarea{
       font-weight: 600;
 }
 
+.darkmodediv{
+      display: grid;
+      place-items: end;
+}
+.darkmodediv #toggleBtn{
+      background: linear-gradient(to right, yellow, white);
+      padding: 10px;
+}

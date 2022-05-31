@@ -55,3 +55,20 @@ if (notes) {
 add.addEventListener("click", () => {
   addNewNote();
 });
+
+// const toggleBtn = document.querySelectorAll('#toggleBtn');
+const toggleBtn = document.getElementById('toggleBtn');
+function changeBackground(){
+  document.body.style.backgroundColor = "black";
+  document.body.style.color = "white";
+  toggleBtn.innerHTML = "Alien Mode"
+  toggleBtn.addEventListener('click', () =>{
+    document.body.style.backgroundColor = "white";
+  document.body.style.color = "black";
+  });
+}
+// toggleBtn.addEventListener('click', ()=> {
+//   // document.body.style.backgroundColor = "black";
+//   // document.body.style.color = "white";
+//   alert("hello")
+// });
